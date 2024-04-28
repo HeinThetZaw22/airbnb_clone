@@ -18,8 +18,8 @@ module.exports = {
     },
     extend: {
       fontFamily: {
-        satoshi: ['Satoshi', 'sans-serif'],
-        inter: ['Inter', 'sans-serif'],
+        roboto: ['Roboto', 'sans-serif'],
+        rubik: ['Rubik', 'sans-serif'],
       },
       colors: {
         airbnb_color: '#FF385C;',
