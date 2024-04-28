@@ -18,8 +18,9 @@ module.exports = {
     },
     extend: {
       fontFamily: {
+        montserrat: ['Montserrat', 'sans-serif'],
+        nunitoSan: ['Nunito Sans', 'sans-serif'],
         roboto: ['Roboto', 'sans-serif'],
-        rubik: ['Rubik', 'sans-serif'],
       },
       colors: {
         airbnb_color: '#FF385C;',
