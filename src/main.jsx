@@ -5,8 +5,8 @@ import {BrowserRouter} from 'react-router-dom'
 import Container from "./components/Container.jsx";
 ReactDOM.createRoot(document.getElementById("root")).render(
     <BrowserRouter>
-       <Container>
+       
          <App />
-       </Container>
+       
     </BrowserRouter>
 );

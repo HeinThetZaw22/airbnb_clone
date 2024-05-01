@@ -2,10 +2,10 @@
 module.exports = {
   darkMode: ["class"],
   content: [
-    './pages/**/*.{js,jsx}',
-    './components/**/*.{js,jsx}',
-    './app/**/*.{js,jsx}',
-    './src/**/*.{js,jsx}',
+    "./pages/**/*.{js,jsx}",
+    "./components/**/*.{js,jsx}",
+    "./app/**/*.{js,jsx}",
+    "./src/**/*.{js,jsx}",
   ],
   prefix: "",
   theme: {
@@ -24,12 +24,12 @@ module.exports = {
     },
     extend: {
       fontFamily: {
-        montserrat: ['Montserrat', 'sans-serif'],
-        nunitoSan: ['Nunito Sans', 'sans-serif'],
-        roboto: ['Roboto', 'sans-serif'],
+        montserrat: ["Montserrat", "sans-serif"],
+        nunitoSan: ["Nunito Sans", "sans-serif"],
+        roboto: ["Roboto", "sans-serif"],
       },
       colors: {
-        airbnb_color: '#FF385C;',
+        airbnb_color: "#FF385C;",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
@@ -85,5 +85,5 @@ module.exports = {
       },
     },
   },
-  plugins: [require("tailwindcss-animate")],
-}
+  plugins: [require("tailwindcss-animate"), require("tailwind-scrollbar-hide")],
+};
